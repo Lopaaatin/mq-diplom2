@@ -773,6 +773,10 @@
 
   /* <!-- --- POP UP --- --> */
 
+  ._hidden {
+    display: none;
+  }
+
   .popup {
     display: flex;
     align-items: center;
