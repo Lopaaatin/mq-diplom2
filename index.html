@@ -53,10 +53,10 @@
                         </li>
                     </ul>
                     <header class="trend-header">
-                        <h2 class="trend-header-content">
+                        <h3 class="trend-header-content">
                         <a href="#0" class="trend-header-link">сейчас в тренде: сад на подоконнике
                         </a>
-                        </h2>
+                        </h3>
                     </header>
                 </div>
             </article>
@@ -69,10 +69,10 @@
                         </li>
                     </ul>
                     <header class="trend-header">
-                        <h2 class="trend-header-content">
+                        <h3 class="trend-header-content">
                         <a href="#0" class="trend-header-link">сыры на красивых картинках из интернета: какие они на вкус?
                         </a>
-                        </h2>
+                        </h3>
                     </header>
                 </div>
             </article>
@@ -88,10 +88,10 @@
                         </li>
                     </ul>
                     <header class="trend-header">
-                        <h2 class="trend-header-content">
+                        <h3 class="trend-header-content">
                         <a href="#0" class="trend-header-link">собираемся в первый поход в горы
                         </a>
-                        </h2>
+                        </h3>
                     </header>
                 </div>
             </article>
@@ -107,10 +107,10 @@
                         </li>
                     </ul>
                     <header class="trend-header">
-                        <h2 class="trend-header-content">
+                        <h3 class="trend-header-content">
                         <a href="#0" class="trend-header-link">сейчас в тренде: сколько витамина c в лимонах?
                         </a>
-                        </h2>
+                        </h3>
                     </header>
                 </div>
             </article>
@@ -293,10 +293,12 @@
         </main>
         
     <!--  БОКОВАЯ КОЛОНКА   -->
-    <!-- НОВЫЕ ПОСТЫ -->
         
         <aside class="aside">
         <section class="aside-sections">
+
+     <!-- НОВЫЕ ПОСТЫ -->
+
             <h3 class="aside-headers">
             новые посты
             </h3>
@@ -476,21 +478,36 @@
 
            <article class="item_border">
                 <div class="item_pic">
-                    <img src="images/shop-item-desk1.jpg" alt="Изображение подушки" class="item_img">
+                    <picture class="item_pic_source">
+                        <source
+                            media="(max-width: 640px)" 
+                            srcset="images/shop-item-mobile1.jpg">
+                        <source
+                            media="(min-width: 641px) 
+                            and (max-width: 1200px)" 
+                            srcset="images/shop-item-tablet1.jpg">
+                        <source
+                            media="(min-width: 1201px)" 
+                            srcset="images/shop-item-desk1.jpg">
+                        <img 
+                            src="images/shop-item-desk1.jpg" 
+                            alt="Изображение подушки" 
+                            class="item_img">
+                    </picture> 
                 </div>
                 <div class="item">
-                    <h2 class="item-header">
+                    <h3 class="item-header">
                         подушки на диван
-                    </h2>
+                    </h3>
                     <p class="item-description">
                         Набор из двух подушек с модными принтами. Видео о создании <a class="item-link" href="#0">здесь</a>. 
                     </p>
                     <div class="buy">
                         <div class="price">
                             <div>
-                                <h3 class="old-price">
+                                <h4 class="old-price">
                                     1000 ₽
-                                </h3>
+                                </h4>
                             </div>
                             <div>
                                 <span class="new-price">
@@ -510,12 +527,27 @@
 
            <article class="item_border">
             <div class="item_pic">
-                <img src="images/shop-item-desk2.jpg" alt="Изображение куклы" class="item_img">
+                <picture>
+                    <source
+                        media="(max-width: 640px)" 
+                        srcset="images/shop-item-mobile2.jpg">
+                    <source
+                        media="(min-width: 641px) 
+                        and (max-width: 1200px)" 
+                        srcset="images/shop-item-tablet2.jpg">
+                    <source
+                        media="(min-width: 1201px)" 
+                        srcset="images/shop-item-desk2.jpg">
+                    <img 
+                        src="images/shop-item-desk2.jpg" 
+                        alt="Изображение куклы" 
+                        class="item_img">
+                </picture>
             </div>
             <div class="item">
-                <h2 class="item-header">
+                <h3 class="item-header">
                     кукла «зайчик»
-                </h2>
+                </h3>
                 <p class="item-description">
                     Интерьерная рукодельная кукла «Зайчик», 
                     созданию которой посвящена 
@@ -525,9 +557,9 @@
                 <div class="buy">
                     <div class="price">
                         <div>
-                            <h3 class="old-price">
+                            <h4 class="old-price">
                                 
-                            </h3>
+                            </h4>
                         </div>
                         <div>
                             <span class="new-price">
@@ -547,12 +579,27 @@
 
        <article class="item_border">
         <div class="item_pic">
-            <img src="images/shop-item-desk3.jpg" alt="Изображение рамки" class="item_img">
+            <picture>
+                <source
+                    media="(max-width: 640px)" 
+                    srcset="images/shop-item-mobile3.jpg">
+                <source
+                    media="(min-width: 641px) 
+                    and (max-width: 1200px)" 
+                    srcset="images/shop-item-tablet3.jpg">
+                <source
+                    media="(min-width: 1201px)" 
+                    srcset="images/shop-item-desk3.jpg">
+                <img 
+                    src="images/shop-item-desk3.jpg" 
+                    alt="Изображение рамки" 
+                    class="item_img">
+            </picture>
         </div>
         <div class="item">
-            <h2 class="item-header">
+            <h3 class="item-header">
                шестиугольная рамка
-            </h2>
+            </h3>
             <p class="item-description">
                 Необычная рамка для украшения дома из видео 
                 <a class="item-link" href="#0">
@@ -561,9 +608,9 @@
             <div class="buy">
                 <div class="price">
                     <div>
-                        <h3 class="old-price">
+                        <h4 class="old-price">
                             500 ₽
-                        </h3>
+                        </h4>
                     </div>
                     <div>
                         <span class="new-price">
@@ -622,21 +669,63 @@
   <!-- --- POP UP --- -->
     <div class="_hidden">
         <div class="popup">
-            <section class="form">
+
+            <form class="form">
                 <h2 class="form_header">
                     ваш фидбек
                 </h2>
-                <label class="select_period">
-                    <span class="select_period-label">
-                        Как часто вы заходите на сайт?
+
+                <div class="feedback">
+                    <label>
+                        <span class="field-label">
+                            Как часто вы заходите на сайт?
+                        </span>
+                        <select class="period">
+                        <option value="moscow" selected>Почти каждый день</option>
+                        <option value="st-petersburg">Два раза в неделю</option>
+                        <option value="kazan">Раз в неделю</option>
+                        </select>
+                    </label>
+                </div>
+                
+                <div class="feedback">
+                    <span class="field-label">
+                        Вы подписаны на e-mail рассылку?
                     </span>
-                    <select class="period">
-                    <option value="moscow" selected>Почти каждый день</option>
-                    <option value="st-petersburg">Два раза в неделю</option>
-                    <option value="kazan">Раз в неделю</option>
-                    </select>
-                </label>
-            </section>
+                    <div>
+                        <label class="feedback_radio">
+                            <input type="radio" class="radio" name="feedback_radio" required>
+                            <span class="feedback_radio-text">Да</span>
+                        </label>
+                        <label class="feedback_radio">
+                            <input type="radio" class="radio" name="feedback_radio" required>
+                            <span class="feedback_radio-text">Нет</span>
+                        </label> 
+                    </div>
+                    
+                </div>
+
+                <div class="feedback">
+                    <label>
+                        <span class="field-label">
+                            Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+                        </span>
+                        <textarea class="feedback_field" placeholder="Может, больше рецептов?" required></textarea>
+                    </label>
+
+
+                </div>
+
+                <div>
+                    <button class="feedback_button">
+                        Отправить
+                    </button>
+                </div>
+                
+                <div class="popup_close"></div>
+            </form>
+            
+
         </div>
     </div>
 
